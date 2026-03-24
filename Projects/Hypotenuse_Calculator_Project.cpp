@@ -16,6 +16,8 @@ int main(){
     a = pow(a, 2);
     b = pow(b, 2);
     c = sqrt(a + b);
+    // This code can be shortened to:
+    std::cout << sqrt(pow(a, 2) + pow(b, 2));
 
     std::cout << "Side c: " << c;
 
