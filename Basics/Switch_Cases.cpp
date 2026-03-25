@@ -45,7 +45,8 @@ int main(){
         case 12: 
             std::cout << "It is December";
             break;
-
+        default:
+            std::cout << "Please only enter numbers (1-12)";
 
     }   
     return 0;
