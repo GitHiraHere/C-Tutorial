@@ -22,7 +22,7 @@ int main(){
         //https://emojicombos.com/ascii-art
         switch(result){
             case 32:// 2 to the power of 5 gets 32
-            std::cout << " ";
+            std::cout << "⋆.˚🦋༘⋆⋆.˚🦋༘⋆";
 
         }
 
