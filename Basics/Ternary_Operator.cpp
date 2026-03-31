@@ -24,6 +24,8 @@ int main(){
 
     //when checking a bool you dont need to do bool variable == true as variable ? does the same similar to if(variable)
     hungry ? std::cout << "You are hungry!" : std::cout << "You are not hungry";
+    //you can also write it like this
+    std::cout << (hungry ? "You are hungry" : "You are full");
 
     return 0;
 }
